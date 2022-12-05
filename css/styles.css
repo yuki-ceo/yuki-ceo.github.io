@@ -1,5 +1,108 @@
-h1 {
-    font-size: 24px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid #000;
+/* common */
+
+body {
+    margin: 0;
+    background: rgb(240, 213, 240);
 }
+
+h1 {
+    font-size: 30px;
+    padding-bottom: 8px;
+    /* border-bottom: 1px solid #000; */
+}
+
+.container {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+    outline: 5px solid rgb(255, 255, 255);
+    /* margin: 30px; */
+    padding: 8px;
+    border-radius: 1%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    display: block;
+    width: 100px;
+    background: #329e00;
+    color: #fff;
+    text-align: center;
+    /* padding: 8px 0; */
+    padding: 8px 4px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+/* header */
+
+header {
+    padding: 16px 10px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 20px; */
+    margin-top: 20px;
+}
+
+header h1 {
+    margin-left: 30px;
+}
+
+header .btn {
+    margin-right: 30px;
+}
+
+/* hero   */
+
+/* .hero h1 {
+    border-bottom: 3px solid rgb(240, 213, 240);
+    border-top: 3px solid rgb(255, 255, 255);
+} */
+
+.hero {
+    background-color: #99e6ff;
+    /* padding-top: 64px; */
+    text-align: center;
+}
+
+/* features  */
+
+.features .container {
+    width: calc(100% - 32px);
+    margin: 10px auto;
+    outline: 8px solid #fff;
+    /* margin: 30px; */
+    padding: 5px 20px;
+}
+
+.features h2 {
+    /* background: rgb(80, 186, 144); */
+    text-align: center;
+}
+
+.features {
+    padding: 16px 150px;
+    background: rgb(80, 186, 144);
+}
+
+/* question */
+
+#question h1 {
+    margin-left: 20px;
+}
+
+#question p {
+    margin-left: 8px;
+}
+
